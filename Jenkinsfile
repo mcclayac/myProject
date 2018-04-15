@@ -20,7 +20,7 @@ pipeline {
         sh 'mvn test'
         junit "target/surefire-reports/TEST-*.xml"
          //    target/surefire-reports
-               target/surefire-reports/TEST-*.xml
+         //    target/surefire-reports/TEST-*.xml
       }
     }
     stage('Package') {
